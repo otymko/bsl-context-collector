@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b47bd26-82d7-4594-bfde-ed40c75cc3e3">
+  <producedTypes>
+    <objectType typeId="24247b60-1576-46ac-b8de-5318c648fd92" valueTypeId="7c35dc62-8a50-4c8f-aed2-dd13820cbc77"/>
+    <managerType typeId="33b7403d-e1f2-4825-9f8d-9e105ddaff7b" valueTypeId="f428720f-24f2-425c-a168-c291be0f64f1"/>
+  </producedTypes>
+  <name>ЧтениеСправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

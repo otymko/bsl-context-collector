@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e2ba9e8-53b8-405b-902d-d542e52116f1">
+  <producedTypes>
+    <objectType typeId="a6d296b9-8d87-47b1-8058-cafaaa25b21d" valueTypeId="ed34489c-7f81-45ad-af58-e796e42ad6fd"/>
+    <managerType typeId="e9133448-8bc6-4f01-8d9f-df04701a2335" valueTypeId="ed5a4d66-537a-40ca-ba65-defbd2f17383"/>
+  </producedTypes>
+  <name>ОбработкаСправочнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка справочной информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаСправочнойИнформации.Form.ГлавнаяФорма</defaultForm>
+  <attributes uuid="7f80b6e1-63a7-4039-b97e-b522087c9bd8">
+    <name>ПутьДоКаталогаСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь до каталога справки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1429a360-835c-430e-9777-04295d6086f7">
+    <name>ГлавнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

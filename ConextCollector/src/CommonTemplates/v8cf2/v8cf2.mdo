@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70d253a2-729d-4478-b2aa-c070de3613b1">
+  <name>v8cf2</name>
+  <synonym>
+    <key>ru</key>
+    <value>V8 CF2</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>
