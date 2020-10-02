@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca175147-98a6-433e-b92a-b2ab21522792">
+  <producedTypes>
+    <objectType typeId="573566db-ded7-4a99-97ec-4224d42c226a" valueTypeId="333d30f8-d6ab-4d17-85c1-3a606fd86906"/>
+    <refType typeId="8899a6bb-c121-4eb3-a562-ffa64958f496" valueTypeId="a8be60aa-1605-4855-95f4-42b41c7bbe09"/>
+    <selectionType typeId="5e7a3cf4-6fe8-410f-a08c-afcdc9e9d49e" valueTypeId="ab10b0a1-a7ba-43f3-8ebf-35fee3fc9227"/>
+    <listType typeId="19f93ada-cb26-40d2-9424-9caca1f7a492" valueTypeId="bdc07d1e-525c-4e6a-9b30-f8dd53593353"/>
+    <managerType typeId="fae57676-9469-4258-88f0-35c1aa4b63cd" valueTypeId="fa18938e-adc1-42b4-bb95-11201f793e7d"/>
+  </producedTypes>
+  <name>Методы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Методы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Методы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВерсииТипов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2ee54762-99b5-4fd6-a5b9-4204e8926d9e">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f41216d3-7a8c-4dc4-a4c0-49fb2559dab9">
+    <producedTypes>
+      <objectType typeId="c8170b96-cd6b-4d21-9df0-3906fd98b21f" valueTypeId="0b47de67-c539-4b3f-b7ec-fda060b8f431"/>
+      <rowType typeId="e293d53c-2382-4aeb-a808-a13f66eb7ec2" valueTypeId="2cdbcd68-aa97-434c-aeb4-08200cdc96c3"/>
+    </producedTypes>
+    <name>КонтекстыВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контексты выполнения</value>
+    </synonym>
+    <attributes uuid="5a044dc2-75d0-4f38-8d1a-43d19ef0da65">
+      <name>Контекст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контекст</value>
+      </synonym>
+      <type>
+        <types>EnumRef.КонтекстыВыполнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b0548575-66ea-4150-9da4-ce054bcd352c">
+    <producedTypes>
+      <objectType typeId="f9336b1b-7f0c-468e-9fdb-8e6f3b6ea16d" valueTypeId="83f042da-c6e5-430f-8f7f-53679322cddc"/>
+      <rowType typeId="79d66045-dba3-43bb-ab67-494d5d326e13" valueTypeId="740a3d68-b21a-4676-8680-bc60be7d5a3a"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="36514090-c854-4e93-8580-51f2f2e4dc0a">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Параметры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

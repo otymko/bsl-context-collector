@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d006f5d-fce6-4d56-8c58-67d6321a34ab">
+  <producedTypes>
+    <refType typeId="4cd5bbd4-03cb-4ebf-b341-5d546c19155c" valueTypeId="5c5ba88a-b3ea-41d6-b263-8f2af552a483"/>
+    <listType typeId="a6165f7e-7a50-4de8-9548-c87f9977a4fb" valueTypeId="09a1f15f-c3a3-4a85-9a23-626d2338b0ed"/>
+    <managerType typeId="debd42c8-4c71-4c5a-9a4f-9d7bf3353e15" valueTypeId="f4653c70-76ce-4de9-8fd1-e0e9d34f3083"/>
+  </producedTypes>
+  <name>КонтекстыВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контексты выполнения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8dcbd022-fc6e-4e8a-a085-a5082d4228ee">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d171da50-0e31-497d-a869-f2f3194ea8d8">
+    <name>ТолстыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толстый клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20907aa5-b8d8-4054-a0ca-fd798ecdbe92">
+    <name>ВнешнееСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешнее соединение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f45d131-c929-40ad-97d3-083f4e3a26d5">
+    <name>ТонкийКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тонкий клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="950633a0-0c9a-4998-b3f9-6a94ea444c2c">
+    <name>ВебКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="610adf0f-a4b7-4946-9df6-654b35974264">
+    <name>МобильныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62fbdca8-cb22-44d9-be51-1eeaa2fd6bd4">
+    <name>МобильноеПриложениеСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное приложение сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43570127-609c-42a0-9e98-c3afc9ec3005">
+    <name>МобильноеПриложениеКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное приложение клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf9a50fb-f606-47c3-83f3-f389ed1f4e91">
+    <name>Интеграция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

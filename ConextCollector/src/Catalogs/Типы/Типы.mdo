@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="049bdf56-32ad-4eec-925e-13c6994bc4ca">
+  <producedTypes>
+    <objectType typeId="0867dcd8-363a-4f6c-b92c-506c14720488" valueTypeId="bf7aa9f2-1461-45a1-8802-1e31a72c7336"/>
+    <refType typeId="ddf05ab0-eedb-482c-b2c0-ae2f999ccc24" valueTypeId="0bbb5f9c-dff1-46bf-bf97-e0ec54645566"/>
+    <selectionType typeId="cc582c27-f6f5-417c-9aa4-d495adc5518d" valueTypeId="0b79c0ed-cd7e-4438-9436-be361653dd47"/>
+    <listType typeId="4362e6ca-c108-4d02-9117-d684fab1d8ba" valueTypeId="58cda9d2-62c8-419e-a468-15c0d9428fe6"/>
+    <managerType typeId="3c61fcc2-4cc2-43f3-90ec-500f7ce72d31" valueTypeId="44f9d78c-72f0-44ec-9de2-31e7906415b7"/>
+  </producedTypes>
+  <name>Типы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Типы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Типы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="80cf805e-5133-4f30-9b13-7a0e7a882b43">
+      <name>ГлобальныйКонтекст</name>
+      <description>Глобальный контекст</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a45807b5-1f9d-451e-af48-b6600f240d93">
+      <name>ПримитивныеТипы</name>
+      <description>Примитивные типы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="a09d4704-ad0b-41ee-a6fe-8110ec18a5eb">
+        <name>Null</name>
+        <description>Null</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+      <content id="b8d9a50f-ec28-4267-8bf3-ad41719c72b0">
+        <name>Булево</name>
+        <description>Булево</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+      <content id="8bb6e4b8-2d2a-4e81-84cd-9007c2350da1">
+        <name>Дата</name>
+        <description>Дата</description>
+        <code xsi:type="core:StringValue">
+          <value>000000005</value>
+        </code>
+      </content>
+      <content id="c6e6e97b-a258-4ee0-b5ac-b48f67e404d2">
+        <name>Неопределено</name>
+        <description>Неопределено</description>
+        <code xsi:type="core:StringValue">
+          <value>000000006</value>
+        </code>
+      </content>
+      <content id="7767e35e-38a5-4dbb-b7bf-22c82f1880d9">
+        <name>Строка</name>
+        <description>Строка</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="9e1a76d1-e3bd-43a8-8590-b4a6cdfafefa">
+        <name>Тип</name>
+        <description>Тип</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+      <content id="5f1fdc03-71a4-4bf9-ad61-00fb18312acf">
+        <name>Число</name>
+        <description>Число</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cde961fd-85d1-4f4f-b77b-ed6f2f292d32">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f54a8a59-8318-4d9e-99ef-eefa62be47a1">
+    <producedTypes>
+      <objectType typeId="7622aa4c-e6ba-46be-adf1-cb5c3960db76" valueTypeId="8f660665-7855-4f14-a5be-edc963661771"/>
+      <rowType typeId="95283fef-ef91-47e3-bfc1-cd792f055494" valueTypeId="d068eb40-6ac2-4e34-96ae-6023a006fe6a"/>
+    </producedTypes>
+    <name>Версии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии</value>
+    </synonym>
+    <attributes uuid="15edbcf9-4200-4e08-a9a6-1699a5a795ea">
+      <name>ВерсияТипа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия типа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВерсииТипов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

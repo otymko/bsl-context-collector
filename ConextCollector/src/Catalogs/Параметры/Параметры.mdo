@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3ea73e-4d4d-44d8-8b15-55d24613a07f">
+  <producedTypes>
+    <objectType typeId="2e2454e4-71e5-425e-8027-4c6ab61d967f" valueTypeId="b469b916-aa4b-437d-815b-4bd372d0ba35"/>
+    <refType typeId="a174aa62-7ae9-4b96-9c47-347437150d42" valueTypeId="6a27838e-3d0a-414f-a967-05a1742536d1"/>
+    <selectionType typeId="f3785aa0-e5f6-458a-bf01-4507ac093465" valueTypeId="ea38dd7c-d20e-4348-9b0a-612d2bdb1758"/>
+    <listType typeId="5c44805e-c6f3-4b4b-bb5d-bab73b675182" valueTypeId="bc35b64a-0d71-4de4-a14b-44464bf6107b"/>
+    <managerType typeId="d920081a-5f89-468d-9bec-30c6e4a384df" valueTypeId="5a4b0d7c-2826-4916-b87b-a9baf99bfbc2"/>
+  </producedTypes>
+  <name>Параметры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Параметры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Параметры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="389bd9f9-be68-4be0-ab7c-da333b7d6b8e">
+    <producedTypes>
+      <objectType typeId="09fd7696-dddb-4303-8f2c-f9d966bf3f33" valueTypeId="eaeefc53-4fc4-4357-b124-0aa17f592085"/>
+      <rowType typeId="96864b90-903f-45f7-a83e-87397beb6f0c" valueTypeId="3d3fc784-44d3-4398-a3ed-45635971e82e"/>
+    </producedTypes>
+    <name>Типы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы</value>
+    </synonym>
+    <attributes uuid="834fe587-0bb4-469b-a256-b96ee5d26253">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Типы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

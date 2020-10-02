@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4942a925-92ff-4893-8c63-c4f2d6b33aed">
+  <producedTypes>
+    <objectType typeId="bcdc921f-296a-4fff-b790-bf714c9c4d77" valueTypeId="0a73c10c-034f-4d38-97ce-bf67ccbbcdae"/>
+    <refType typeId="d25c55cd-6c41-4191-9457-cd5a8f81965b" valueTypeId="4fece423-139b-407f-90fa-8e588b083019"/>
+    <selectionType typeId="cde65a18-5352-41f2-a51d-eae0fce1c559" valueTypeId="d118ae3b-11b7-4fa1-bb13-5163621bc1d9"/>
+    <listType typeId="ee404c8f-c29d-4c05-b6ff-a333f79da7e6" valueTypeId="1578b9ed-9591-4d36-b59f-cf866435f585"/>
+    <managerType typeId="eedabd61-d541-401d-b43f-5bdc4b1107f3" valueTypeId="dbdce24f-862e-4853-b30a-90cbaa6e4437"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.События.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.События.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="ec0248ca-ced7-4c12-adf1-5bf8a90d7330">
+    <producedTypes>
+      <objectType typeId="49ae443a-82b0-4bd6-b1bb-de7d4e945474" valueTypeId="0ee903f1-94f4-4e8d-952c-d2680c62c9b3"/>
+      <rowType typeId="93d1dc3f-5263-437b-8cb9-485ab4b2e609" valueTypeId="351cbc6d-9e32-4b90-b1f0-12994adffa85"/>
+    </producedTypes>
+    <name>КонтекстыВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контексты выполнения</value>
+    </synonym>
+    <attributes uuid="8ab4c4a9-7f0c-4d0d-83c9-dec26f693b69">
+      <name>Контекст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контекст</value>
+      </synonym>
+      <type>
+        <types>EnumRef.КонтекстыВыполнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ee1ce4dd-b163-465c-9d84-2b976914126e">
+    <producedTypes>
+      <objectType typeId="0411d48b-ba5d-443e-83c0-15831a6f076d" valueTypeId="3ed02686-a143-4207-b0c3-a721c91d5952"/>
+      <rowType typeId="96a83fa8-4bba-49f0-a713-0e64a6e868f7" valueTypeId="3c0968a0-2911-49ee-a76a-7e343dcd05da"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="cb507415-a15c-486e-9021-c95a951e84fd">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Параметры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

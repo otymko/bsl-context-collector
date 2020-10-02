@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8ff8d43-ff18-4636-8591-7e6955f9e570">
+  <producedTypes>
+    <objectType typeId="5f9dc3d5-9371-4446-9598-92bf9ea6c1b2" valueTypeId="3d0658d8-1d93-473f-b134-2ee51fb29fa7"/>
+    <refType typeId="74bb8a43-46ab-4b43-8103-831696027cc1" valueTypeId="0b7c3d9e-4b99-4593-b5e2-fca74d8a2a10"/>
+    <selectionType typeId="3cbffe36-8056-4025-8738-b55d845640c0" valueTypeId="a995c38a-fb20-46cb-b2eb-80d463de1d72"/>
+    <listType typeId="eec24bef-8a18-4dc8-857b-144b8fa81404" valueTypeId="cf4f2cbc-a00c-4048-9c02-a1e9472c4df1"/>
+    <managerType typeId="e621ad13-dc8e-4a76-beed-3053529b346b" valueTypeId="6438397b-9535-4283-9224-e25c35cd8d82"/>
+  </producedTypes>
+  <name>Конструкторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструкторы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Конструкторы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Конструкторы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

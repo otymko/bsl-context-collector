@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63188ae1-2eaa-4aec-9a6a-cb3ad90a463a">
+  <name>ВерсияПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия платформы</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВерсииПлатформы</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Catalog.ВерсииТипов</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.События</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Методы</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Параметры</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Конструкторы</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Значения</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Свойства</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

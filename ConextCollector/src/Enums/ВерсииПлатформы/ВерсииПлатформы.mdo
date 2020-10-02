@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2dac601-6773-4107-9366-1c5ee13bc5d8">
+  <producedTypes>
+    <refType typeId="f16f28d3-d2eb-4740-834d-aa629ad9109d" valueTypeId="fd79b613-ed65-44a7-9b10-082e0bfbd0ff"/>
+    <listType typeId="d44837c7-5c77-4ee9-bff8-dff02da7bc1d" valueTypeId="5cec4f34-cdfa-4766-87b2-e4780d4df678"/>
+    <managerType typeId="8141f566-7454-40ae-9ff3-003f676b28a2" valueTypeId="cc458ffc-d2fb-4673-866d-62d6d5e975ca"/>
+  </producedTypes>
+  <name>ВерсииПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии платформы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c5e98b6c-eafa-4a51-8b84-3b57e4b13b2a">
+    <name>Версия_8_2_16</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.2.16</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad4f68aa-3814-4aa2-a264-17a5dbef1c8e">
+    <name>Версия_8_2_17</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.2.17</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b50cdae3-e490-4b5c-96f1-fba37b0aed84">
+    <name>Версия_8_2_18</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.2.18</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b614469-9f19-4291-82df-4219ce3f0722">
+    <name>Версия_8_2_19</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.2.19</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc9c2d1a-3d43-4bf3-be49-c2db97719423">
+    <name>Версия_8_3_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffdf9214-c884-4f12-8287-88201f520e61">
+    <name>Версия_8_3_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a6fe274-62b9-4d00-aac6-160537550de8">
+    <name>Версия_8_3_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ca9c0c5-cf9d-4638-8a02-eae8e320f033">
+    <name>Версия_8_3_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7da9b82d-6a4e-4037-95ad-01c9355ef430">
+    <name>Версия_8_3_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41e63e54-191a-4e17-8d1e-517828dc2991">
+    <name>Версия_8_3_8</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a2da7ab-78eb-4f32-acaf-e41ec5d6149f">
+    <name>Версия_8_3_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.9</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbbf4e88-0280-43ac-b4dc-eb4f388219ad">
+    <name>Версия_8_3_10</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.10</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="992cdc2c-88ac-4488-bc1d-4d656d12f216">
+    <name>Версия_8_3_11</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.11</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43867b74-0b45-4edf-b72b-8e4b51ca5921">
+    <name>Версия_8_3_12</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.12</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5080ea98-c79c-4aba-a674-532a9c82e90c">
+    <name>Версия_8_3_13</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.13</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac4d4c98-36c8-4f34-9fa8-d21275986cc6">
+    <name>Версия_8_3_14</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.14</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="241bf4c3-6663-4902-8db9-8da23b3db719">
+    <name>Версия_8_3_15</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.15</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09a7213f-21dc-4500-9395-471f623f97da">
+    <name>Версия_8_3_16</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.16</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="716f6e2b-75e0-44f3-91a5-a354b9b6a1c9">
+    <name>Версия_8_3_17</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.17</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="747401ba-a045-403c-a3de-045d48651765">
+    <name>Версия_8_3_18</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.18</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
