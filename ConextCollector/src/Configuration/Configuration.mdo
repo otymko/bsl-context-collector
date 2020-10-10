@@ -37,6 +37,7 @@
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <commonAttributes>CommonAttribute.НаименованиеАнгл</commonAttributes>
   <commonAttributes>CommonAttribute.ВерсияПлатформы</commonAttributes>
+  <commonAttributes>CommonAttribute.ПутьКОписанию</commonAttributes>
   <catalogs>Catalog.Типы</catalogs>
   <catalogs>Catalog.ВерсииТипов</catalogs>
   <catalogs>Catalog.События</catalogs>
@@ -45,6 +46,7 @@
   <catalogs>Catalog.Конструкторы</catalogs>
   <catalogs>Catalog.Значения</catalogs>
   <catalogs>Catalog.Свойства</catalogs>
+  <catalogs>Catalog.Перегрузки</catalogs>
   <enums>Enum.ВерсииПлатформы</enums>
   <enums>Enum.КонтекстыВыполнения</enums>
   <dataProcessors>DataProcessor.ОбработкаСправочнойИнформации</dataProcessors>

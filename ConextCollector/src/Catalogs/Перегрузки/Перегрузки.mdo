@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a05f1a48-5ae4-4bbd-abb9-6ab5076c3d01">
+  <producedTypes>
+    <objectType typeId="7e39eb3d-5835-4df1-b5c1-ac998b695a18" valueTypeId="90d57140-cec8-469f-a625-105ba0b427d8"/>
+    <refType typeId="f1c28b8c-fe78-465a-b8d6-9fbd226b4982" valueTypeId="4413f9bc-9e53-4598-8a84-74dc93fd4bac"/>
+    <selectionType typeId="aa21e09e-cd7a-4011-9493-1e63c6ae1e48" valueTypeId="42bc9311-4833-4f4b-8a4d-f882110926a8"/>
+    <listType typeId="ab6a5f01-43e5-4b5b-99c8-65ebf86ff5eb" valueTypeId="00e4a854-6ec1-4bf9-a399-5430dadea128"/>
+    <managerType typeId="52cd9241-a933-4059-822d-2880e0708a7b" valueTypeId="b1ae12db-8380-4049-8403-be3cd5b254ae"/>
+  </producedTypes>
+  <name>Перегрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перегрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Перегрузки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Перегрузки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Методы</owners>
+  <owners>Catalog.События</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="02124067-7d93-41c5-8bb2-6ffc8752b874">
+    <name>Конструктор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08621664-74d1-4787-971e-73b5b7adc8c8">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1c9fdfc5-5c5b-4e97-8b86-824d67601378">
+    <producedTypes>
+      <objectType typeId="9093922b-2035-4b46-91cc-d7780a6320c2" valueTypeId="1df3316e-7e19-4a44-8a61-bd1359136fcf"/>
+      <rowType typeId="f159cb0c-96de-4af2-bd0a-d27d4f3366e0" valueTypeId="02eb2abc-2620-483e-a1d0-aee8543f8730"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="0843b5d1-5dd3-411c-b041-311024207ac6">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4a926f0-75f5-4ee9-8ccf-e77fd7bd7dc9">
+      <name>Обязательный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обязательный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ac59eec-fa47-462c-8928-e696502aa852">
+      <name>Типы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Типы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50a60f81-c660-47e9-a6f7-318ab5375be9">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

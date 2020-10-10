@@ -52,6 +52,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="58789d5c-8df5-48e1-b8c8-45e1a3310c1c">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f41216d3-7a8c-4dc4-a4c0-49fb2559dab9">
     <producedTypes>
       <objectType typeId="c8170b96-cd6b-4d21-9df0-3906fd98b21f" valueTypeId="0b47de67-c539-4b3f-b7ec-fda060b8f431"/>
@@ -77,24 +95,41 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="b0548575-66ea-4150-9da4-ce054bcd352c">
+  <tabularSections uuid="c9e680ec-70a0-4f37-92c3-f5a81b3dd74d">
     <producedTypes>
-      <objectType typeId="f9336b1b-7f0c-468e-9fdb-8e6f3b6ea16d" valueTypeId="83f042da-c6e5-430f-8f7f-53679322cddc"/>
-      <rowType typeId="79d66045-dba3-43bb-ab67-494d5d326e13" valueTypeId="740a3d68-b21a-4676-8680-bc60be7d5a3a"/>
+      <objectType typeId="60e60d21-0a32-4d70-bb49-caa71fd4640b" valueTypeId="df9a9f4d-71c0-4b58-a279-be1a1d18f900"/>
+      <rowType typeId="50a4f8e5-bf4e-4c0e-aef2-6177cfbd0c3c" valueTypeId="9cec08f0-4e91-4ca2-9e68-734ab6fcb65a"/>
     </producedTypes>
-    <name>Параметры</name>
+    <name>ВозвращаемыеЗначения</name>
     <synonym>
       <key>ru</key>
-      <value>Параметры</value>
+      <value>Возвращаемые значения</value>
     </synonym>
-    <attributes uuid="36514090-c854-4e93-8580-51f2f2e4dc0a">
-      <name>Параметр</name>
+    <attributes uuid="0cc5ec95-658e-4a7c-b6f4-20691af6a406">
+      <name>ТипСтрокой</name>
       <synonym>
         <key>ru</key>
-        <value>Параметр</value>
+        <value>Тип строкой</value>
       </synonym>
       <type>
-        <types>CatalogRef.Параметры</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="411b7307-527e-48c1-a3c7-50e1710b564a">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Типы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

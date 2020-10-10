@@ -21,6 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВерсииТипов</owners>
   <codeLength>9</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
@@ -30,54 +31,43 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <tabularSections uuid="ec0248ca-ced7-4c12-adf1-5bf8a90d7330">
-    <producedTypes>
-      <objectType typeId="49ae443a-82b0-4bd6-b1bb-de7d4e945474" valueTypeId="0ee903f1-94f4-4e8d-952c-d2680c62c9b3"/>
-      <rowType typeId="93d1dc3f-5263-437b-8cb9-485ab4b2e609" valueTypeId="351cbc6d-9e32-4b90-b1f0-12994adffa85"/>
-    </producedTypes>
-    <name>КонтекстыВыполнения</name>
+  <attributes uuid="29400522-f67f-4221-99f1-e14fe01f4614">
+    <name>Идентификатор</name>
     <synonym>
       <key>ru</key>
-      <value>Контексты выполнения</value>
+      <value>Идентификатор</value>
     </synonym>
-    <attributes uuid="8ab4c4a9-7f0c-4d0d-83c9-dec26f693b69">
-      <name>Контекст</name>
-      <synonym>
-        <key>ru</key>
-        <value>Контекст</value>
-      </synonym>
-      <type>
-        <types>EnumRef.КонтекстыВыполнения</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="ee1ce4dd-b163-465c-9d84-2b976914126e">
-    <producedTypes>
-      <objectType typeId="0411d48b-ba5d-443e-83c0-15831a6f076d" valueTypeId="3ed02686-a143-4207-b0c3-a721c91d5952"/>
-      <rowType typeId="96a83fa8-4bba-49f0-a713-0e64a6e868f7" valueTypeId="3c0968a0-2911-49ee-a76a-7e343dcd05da"/>
-    </producedTypes>
-    <name>Параметры</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="334579e6-b47d-4e5b-8d63-f35062809fc9">
+    <name>Описание</name>
     <synonym>
       <key>ru</key>
-      <value>Параметры</value>
+      <value>Описание</value>
     </synonym>
-    <attributes uuid="cb507415-a15c-486e-9021-c95a951e84fd">
-      <name>Параметр</name>
-      <synonym>
-        <key>ru</key>
-        <value>Параметр</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Параметры</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

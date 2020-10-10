@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63188ae1-2eaa-4aec-9a6a-cb3ad90a463a">
-  <name>ВерсияПлатформы</name>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5640d73-6f42-4131-afa8-0f7961a99cee">
+  <name>ПутьКОписанию</name>
   <synonym>
     <key>ru</key>
-    <value>Версия платформы</value>
+    <value>Путь к описанию</value>
   </synonym>
   <type>
-    <types>EnumRef.ВерсииПлатформы</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
   </type>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataHistory>Use</dataHistory>
-  <fillValue xsi:type="core:UndefinedValue"/>
+  <fillValue xsi:type="core:StringValue">
+    <value></value>
+  </fillValue>
   <content>
-    <metadata>Catalog.Параметры</metadata>
+    <metadata>Catalog.Типы</metadata>
     <use>Use</use>
   </content>
   <content>
@@ -25,19 +30,11 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>Catalog.Значения</metadata>
-    <use>Use</use>
-  </content>
-  <content>
     <metadata>Catalog.Методы</metadata>
     <use>Use</use>
   </content>
   <content>
     <metadata>Catalog.Свойства</metadata>
-    <use>Use</use>
-  </content>
-  <content>
-    <metadata>Catalog.Конструкторы</metadata>
     <use>Use</use>
   </content>
   <autoUse>DontUse</autoUse>

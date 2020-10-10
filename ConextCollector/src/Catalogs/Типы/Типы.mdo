@@ -97,6 +97,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Типы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="cde961fd-85d1-4f4f-b77b-ed6f2f292d32">
     <name>Идентификатор</name>
     <synonym>
@@ -118,29 +119,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="f54a8a59-8318-4d9e-99ef-eefa62be47a1">
-    <producedTypes>
-      <objectType typeId="7622aa4c-e6ba-46be-adf1-cb5c3960db76" valueTypeId="8f660665-7855-4f14-a5be-edc963661771"/>
-      <rowType typeId="95283fef-ef91-47e3-bfc1-cd792f055494" valueTypeId="d068eb40-6ac2-4e34-96ae-6023a006fe6a"/>
-    </producedTypes>
-    <name>Версии</name>
+  <forms uuid="505da1b5-22b6-42a7-978e-8effd92fa70f">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Версии</value>
+      <value>Форма элемента</value>
     </synonym>
-    <attributes uuid="15edbcf9-4200-4e08-a9a6-1699a5a795ea">
-      <name>ВерсияТипа</name>
-      <synonym>
-        <key>ru</key>
-        <value>Версия типа</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВерсииТипов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

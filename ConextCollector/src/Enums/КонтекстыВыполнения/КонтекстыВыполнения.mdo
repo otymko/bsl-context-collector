@@ -75,4 +75,11 @@
       <value>Интеграция</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="4d128f06-bf25-4da4-af6e-40a0068b8bcc">
+    <name>МобильныйАвтономныйСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильный автономный сервер</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

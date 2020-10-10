@@ -24,6 +24,48 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <tabularSections uuid="f7a3d355-bef2-4bb9-ad7c-dcef3ad6a536">
+    <producedTypes>
+      <objectType typeId="8493fb42-2201-4b06-bfd3-240b641063bb" valueTypeId="ad997398-6a40-4628-8be9-97c54dd36045"/>
+      <rowType typeId="af3e8003-de2c-40ff-a66d-f91b9c649532" valueTypeId="eb8d1b90-4d78-4440-8487-76e0b2b1801f"/>
+    </producedTypes>
+    <name>Платформы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платформы1 С</value>
+    </synonym>
+    <attributes uuid="29088ae3-e9ec-4e5e-b937-8f4a003a2f7b">
+      <name>Платформа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Платформа</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВерсииПлатформы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="74d912de-0902-4daf-8bab-69dd20a533c0">
+      <name>КаталогСоСправкой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Каталог со справкой</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
   <forms uuid="1429a360-835c-430e-9777-04295d6086f7">
     <name>ГлавнаяФорма</name>
     <synonym>
