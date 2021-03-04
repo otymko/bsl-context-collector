@@ -1,0 +1,11 @@
+[ {
+  "uid" : "1cbbe7f19d56315f",
+  "name" : "Тест_УдалитьВременныйФайл",
+  "time" : {
+    "start" : 1614879940534,
+    "stop" : 1614879941023,
+    "duration" : 489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

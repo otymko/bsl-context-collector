@@ -1,0 +1,115 @@
+{
+  "uid" : "1cbbe7f19d56315f",
+  "name" : "Тест_УдалитьВременныйФайл",
+  "historyId" : "ConextCollector.Tests.Тест_ОбщийМодуль.Тест_УдалитьВременныйФайл",
+  "time" : {
+    "start" : 1614879940534,
+    "stop" : 1614879941023,
+    "duration" : 489
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И я выполняю код встроенного языка на сервере",
+      "time" : {
+        "start" : 1614879940535,
+        "stop" : 1614879941023,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2be70dca97d1e4b",
+        "name" : "table",
+        "source" : "e2be70dca97d1e4b.csv",
+        "type" : "text/csv",
+        "size" : 109
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тест_УдалитьВременныйФайл"
+  }, {
+    "name" : "feature",
+    "value" : "Тест_УдалитьВременныйФайл"
+  }, {
+    "name" : "tag",
+    "value" : "onserver"
+  }, {
+    "name" : "package",
+    "value" : "all"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S3AOR93"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c669eecb85317f3b",
+        "reportUrl" : "https://otymko.github.io/bsl-context-collector/4//#testresult/c669eecb85317f3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614879388674,
+          "stop" : 1614879389224,
+          "duration" : 550
+        }
+      }, {
+        "uid" : "15515a40ef2c746a",
+        "reportUrl" : "https://otymko.github.io/bsl-context-collector/3//#testresult/15515a40ef2c746a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614878903807,
+          "stop" : 1614878904352,
+          "duration" : 545
+        }
+      }, {
+        "uid" : "4e80256540d58ff5",
+        "reportUrl" : "https://otymko.github.io/bsl-context-collector/2//#testresult/4e80256540d58ff5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614878196015,
+          "stop" : 1614878196514,
+          "duration" : 499
+        }
+      } ]
+    },
+    "tags" : [ "onserver" ]
+  },
+  "source" : "1cbbe7f19d56315f.json",
+  "parameterValues" : [ ]
+}

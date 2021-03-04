@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://otymko.github.io/bsl-context-collector",
+  "buildOrder" : 7,
+  "buildName" : "GitHub Actions Run #621866561",
+  "buildUrl" : "https://github.com/otymko/bsl-context-collector/actions/runs/621866561",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://otymko.github.io/bsl-context-collector/7/"
+} ]
