@@ -53,57 +53,57 @@ jobs:
           name: allure
           path: build/allure
   
-  # sonar-analyze:
-  #   needs: qa
-  #   runs-on: ubuntu-20.04
-  #   steps:
-  #     - uses: actions/checkout@v2  
+  sonar-analyze:
+    needs: qa
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2  
 
-  #     # https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
-  #     - name: Извлечение имени текущей ветки
-  #       shell: bash
-  #       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-  #       id: extract_branch
+      # https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
+      - name: Извлечение имени текущей ветки
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
 
-  #     - name: Установка Sonar-scanner
-  #       uses: warchant/setup-sonar-scanner@v3
+      - name: Установка Sonar-scanner
+        uses: warchant/setup-sonar-scanner@v3
 
-  #     - name: Анализ в SonarQube (branch)
-  #       if: github.event_name == 'push'
-  #       run: sonar-scanner
-  #           -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
-  #           -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
-  #           -Dsonar.branch.name=${{ steps.extract_branch.outputs.branch }}
+      - name: Анализ в SonarQube (branch)
+        if: github.event_name == 'push'
+        run: sonar-scanner
+            -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
+            -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+            -Dsonar.branch.name=${{ steps.extract_branch.outputs.branch }}
 
-  # publish-allure:
-  #   needs: qa
-  #   runs-on: ubuntu-20.04
-  #   steps:
-  #     - name: Загрузка Allure отчета из артефактов
-  #       uses: actions/download-artifact@master
-  #       with:
-  #         name: allure
-  #         path: build/allure
+  publish-allure:
+    needs: qa
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Загрузка Allure отчета из артефактов
+        uses: actions/download-artifact@master
+        with:
+          name: allure
+          path: build/allure
 
-  #     - name: Получение истории
-  #       uses: actions/checkout@v2
-  #       if: always()
-  #       continue-on-error: true
-  #       with:
-  #         ref: gh-pages
-  #         path: gh-pages
+      - name: Получение истории
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
 
-  #     - name: Обработка истории
-  #       uses: simple-elf/allure-report-action@master
-  #       if: always()
-  #       with:
-  #         allure_results: build/allure
-  #         allure_history: allure-history
+      - name: Обработка истории
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: build/allure
+          allure_history: allure-history
 
-  #     - name: Публикация на GitHub Pages
-  #       if: always()
-  #       uses: peaceiris/actions-gh-pages@v2
-  #       env:
-  #         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #         PUBLISH_BRANCH: gh-pages
-  #         PUBLISH_DIR: allure-history
+      - name: Публикация на GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
