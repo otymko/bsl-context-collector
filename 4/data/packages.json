@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "all",
+    "children" : [ {
+      "name" : "Тест_УдалитьВременныйФайл",
+      "uid" : "c669eecb85317f3b",
+      "parentUid" : "f7106d83dcff857706ef021610ece252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614879388674,
+        "stop" : 1614879389224,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f7106d83dcff857706ef021610ece252"
+  } ],
+  "name" : "packages"
+}

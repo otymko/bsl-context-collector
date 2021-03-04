@@ -1,0 +1,22 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-S3AOR93",
+    "children" : [ {
+      "name" : "Тест_УдалитьВременныйФайл",
+      "uid" : "c669eecb85317f3b",
+      "parentUid" : "3c44e79d05c41e176625d76a2230a038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614879388674,
+        "stop" : 1614879389224,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c44e79d05c41e176625d76a2230a038"
+  } ],
+  "name" : "timeline"
+}
