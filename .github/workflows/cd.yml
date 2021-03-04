@@ -1,0 +1,38 @@
+# MIT License
+# Copyright (C) 2021 Tymko Oleg <olegtymko@yandex.ru> and contributors
+# All rights reserved.
+
+name: Continuous delivery
+
+on:
+  release: 
+    types: [published, edited]
+
+jobs:
+  release:
+    runs-on: self-hosted
+
+    defaults:
+      run:
+        shell: cmd  
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Конвертация исходников edt в xml формат
+        run: ring edt@2020.6.1 workspace export --project "%GITHUB_WORKSPACE%/src/ConextCollector" --configuration-files "%GITHUB_WORKSPACE%/build/cf" --workspace-location "%GITHUB_WORKSPACE%/build/workspace"
+
+      - name: Сборка CF
+        run: vrunner compile -s build/cf -o build/1cv8.cf
+
+      - name: Загрузка в артефакты
+        uses: actions/upload-artifact@v2
+        with:
+          name: 1Cv8
+          path: build/*.cf
+
+      - name: Публикация в релизе
+        uses: AButler/upload-release-assets@v1.0
+        with:
+          files: build/*.cf
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
