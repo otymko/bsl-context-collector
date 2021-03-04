@@ -1,0 +1,109 @@
+# MIT License
+# Copyright (C) 2021 Tymko Oleg <olegtymko@yandex.ru> and contributors
+# All rights reserved.
+
+name: Continuous integration
+
+on: [push]
+
+jobs:
+  qa:
+    runs-on: self-hosted
+    defaults:
+      run:
+        shell: cmd
+
+    env:
+      VRUNNER_CONF: tools/json/VRunner.json
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Конвертация конфигурации в xml формат
+        run: ring edt@2020.6.1 workspace export --project "%GITHUB_WORKSPACE%/ConextCollector" --configuration-files "%GITHUB_WORKSPACE%/build/cf" --workspace-location "%GITHUB_WORKSPACE%/build/workspace"
+
+      - name: Конвертация тестов (расширение) в xml формат
+        run: ring edt@2020.6.1 workspace export --project "%GITHUB_WORKSPACE%/ConextCollector.Tests" --configuration-files "%GITHUB_WORKSPACE%/build/cfe" --workspace-location "%GITHUB_WORKSPACE%/build/workspace"
+
+      - name: Загрузка дампа БД
+        run: curl https://cloud.silverbulleters.org/s/JZ8rdacRj6DKkBM/download --output ./build/dump.dt
+
+      - name: Сборка cf
+        run: vrunner compile --src %GITHUB_WORKSPACE%/build/cf --out build/1cv8.cf
+
+      - name: Создание эталонной базы из dump.dt
+        run: vrunner init-dev --dt %GITHUB_WORKSPACE%/build/dump.dt --ibconnection "/F%GITHUB_WORKSPACE%/build/ib" 
+
+      - name: Обновление базы
+        run: vrunner load --src %GITHUB_WORKSPACE%/build/1cv8.cf --ibconnection "/F%GITHUB_WORKSPACE%/build/ib" 
+
+      - name: Подключение тестов
+        run: vrunner compileext %GITHUB_WORKSPACE%/build/cfe "МодульныеТесты" --updatedb --ibconnection "/F%GITHUB_WORKSPACE%/build/ib"   
+
+      - name: Синтакс-контроль
+        run: vrunner syntax-check --ibconnection "/F%GITHUB_WORKSPACE%/build/ib" 
+
+      - name: Модульные тесты (под личиной BDD)
+        timeout-minutes: 10
+        run: vrunner vanessa --ibconnection "/F%GITHUB_WORKSPACE%/build/ib" --settings ./tools/json/VRunner.json --workspace "%GITHUB_WORKSPACE%"
+
+      - name: Отправка Allure отчета в артефакты
+        uses: actions/upload-artifact@master
+        with:
+          name: allure
+          path: build/allure
+  
+  # sonar-analyze:
+  #   needs: qa
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #     - uses: actions/checkout@v2  
+
+  #     # https://stackoverflow.com/questions/58033366/how-to-get-current-branch-within-github-actions
+  #     - name: Извлечение имени текущей ветки
+  #       shell: bash
+  #       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+  #       id: extract_branch
+
+  #     - name: Установка Sonar-scanner
+  #       uses: warchant/setup-sonar-scanner@v3
+
+  #     - name: Анализ в SonarQube (branch)
+  #       if: github.event_name == 'push'
+  #       run: sonar-scanner
+  #           -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
+  #           -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+  #           -Dsonar.branch.name=${{ steps.extract_branch.outputs.branch }}
+
+  # publish-allure:
+  #   needs: qa
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #     - name: Загрузка Allure отчета из артефактов
+  #       uses: actions/download-artifact@master
+  #       with:
+  #         name: allure
+  #         path: build/allure
+
+  #     - name: Получение истории
+  #       uses: actions/checkout@v2
+  #       if: always()
+  #       continue-on-error: true
+  #       with:
+  #         ref: gh-pages
+  #         path: gh-pages
+
+  #     - name: Обработка истории
+  #       uses: simple-elf/allure-report-action@master
+  #       if: always()
+  #       with:
+  #         allure_results: build/allure
+  #         allure_history: allure-history
+
+  #     - name: Публикация на GitHub Pages
+  #       if: always()
+  #       uses: peaceiris/actions-gh-pages@v2
+  #       env:
+  #         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #         PUBLISH_BRANCH: gh-pages
+  #         PUBLISH_DIR: allure-history
