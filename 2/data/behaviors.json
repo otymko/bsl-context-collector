@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Тест_УдалитьВременныйФайл",
+    "children" : [ {
+      "name" : "Тест_УдалитьВременныйФайл",
+      "children" : [ {
+        "name" : "Тест_УдалитьВременныйФайл",
+        "uid" : "4e80256540d58ff5",
+        "parentUid" : "385371fa463b001d2d68cc3ad72ec538",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614878196015,
+          "stop" : 1614878196514,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "385371fa463b001d2d68cc3ad72ec538"
+    } ],
+    "uid" : "1d8b919d21d39625a44e655630d258d7"
+  } ],
+  "name" : "behaviors"
+}

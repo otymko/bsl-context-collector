@@ -1,0 +1,22 @@
+{
+  "ConextCollector.Tests.Тест_ОбщийМодуль.Тест_УдалитьВременныйФайл" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e80256540d58ff5",
+      "reportUrl" : "https://otymko.github.io/bsl-context-collector/2//#testresult/4e80256540d58ff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614878196015,
+        "stop" : 1614878196514,
+        "duration" : 499
+      }
+    } ]
+  }
+}
