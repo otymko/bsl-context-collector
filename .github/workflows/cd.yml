@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Конвертация исходников edt в xml формат
-        run: ring edt@2020.6.1 workspace export --project "%GITHUB_WORKSPACE%/src/ConextCollector" --configuration-files "%GITHUB_WORKSPACE%/build/cf" --workspace-location "%GITHUB_WORKSPACE%/build/workspace"
+        run: ring edt@2020.6.1 workspace export --project "%GITHUB_WORKSPACE%/ConextCollector" --configuration-files "%GITHUB_WORKSPACE%/build/cf" --workspace-location "%GITHUB_WORKSPACE%/build/workspace"
 
       - name: Сборка CF
         run: vrunner compile -s build/cf -o build/1cv8.cf
