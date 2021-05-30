@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdc8a8ac-283b-49ab-8bb7-406dd19fc22b">
+  <name>ПреобразованиеИдентификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Преобразование идентификаторов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

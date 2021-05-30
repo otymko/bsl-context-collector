@@ -35,6 +35,7 @@
   </languages>
   <commonTemplates>CommonTemplate.v8cf2</commonTemplates>
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
+  <commonModules>CommonModule.ПреобразованиеИдентификаторов</commonModules>
   <commonAttributes>CommonAttribute.НаименованиеАнгл</commonAttributes>
   <commonAttributes>CommonAttribute.ВерсияПлатформы</commonAttributes>
   <commonAttributes>CommonAttribute.ПутьКОписанию</commonAttributes>
