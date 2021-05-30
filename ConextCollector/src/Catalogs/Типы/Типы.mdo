@@ -30,13 +30,6 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
-    <items id="80cf805e-5133-4f30-9b13-7a0e7a882b43">
-      <name>ГлобальныйКонтекст</name>
-      <description>Глобальный контекст</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
     <items id="a45807b5-1f9d-451e-af48-b6600f240d93">
       <name>ПримитивныеТипы</name>
       <description>Примитивные типы</description>
@@ -94,11 +87,18 @@
         </code>
       </content>
     </items>
+    <items id="80cf805e-5133-4f30-9b13-7a0e7a882b43">
+      <name>ГлобальныйКонтекст</name>
+      <description>ГлобальныйКонтекст</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Типы.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="cde961fd-85d1-4f4f-b77b-ed6f2f292d32">
+  <attributes uuid="799ae547-54fe-4713-ad11-02f075b93972">
     <name>Идентификатор</name>
     <synonym>
       <key>ru</key>
@@ -107,7 +107,28 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>50</length>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cde961fd-85d1-4f4f-b77b-ed6f2f292d32">
+    <name>ИдентификаторДляПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор для поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
