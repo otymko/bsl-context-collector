@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc20b52-2345-4987-a222-ad2049b57ece">
+  <producedTypes>
+    <objectType typeId="faa672f0-97e8-4285-811e-115877617eb3" valueTypeId="c289b485-0378-48b6-9e9d-b47cf3e6abca"/>
+    <managerType typeId="38ebe5f3-cb4d-4d90-8b74-f5bf94e42f68" valueTypeId="e095a19e-624c-4acc-8156-273aa6411496"/>
+  </producedTypes>
+  <name>ЭкспортДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспорт данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЭкспортДанных.Form.Форма</defaultForm>
+  <attributes uuid="715ab5cb-baba-4583-bef9-48e671e4a621">
+    <name>КаталогЭкспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог экспорта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8bd8688-9540-4265-bf3c-94e964b6b744">
+    <name>ВыгрузитьИдентификаторыТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить идентификаторы типов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="db8ffab0-1805-41b7-b062-588952446637">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

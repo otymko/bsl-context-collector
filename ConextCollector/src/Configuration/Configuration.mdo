@@ -52,4 +52,5 @@
   <enums>Enum.КонтекстыВыполнения</enums>
   <dataProcessors>DataProcessor.ОбработкаСправочнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ЧтениеСправки</dataProcessors>
+  <dataProcessors>DataProcessor.ЭкспортДанных</dataProcessors>
 </mdclass:Configuration>
