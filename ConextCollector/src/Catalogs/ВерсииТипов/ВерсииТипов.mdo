@@ -32,6 +32,27 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="571b84c7-ca1f-45fe-858f-f061983f7f95">
+    <name>ИдентификаторДляПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор для поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42265755-0db1-4b8b-941e-f57ddc9b49d1">
     <name>Идентификатор</name>
     <synonym>
       <key>ru</key>
@@ -40,7 +61,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>50</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

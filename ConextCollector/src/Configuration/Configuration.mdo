@@ -35,6 +35,7 @@
   </languages>
   <commonTemplates>CommonTemplate.v8cf2</commonTemplates>
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
+  <commonModules>CommonModule.ПреобразованиеИдентификаторов</commonModules>
   <commonAttributes>CommonAttribute.НаименованиеАнгл</commonAttributes>
   <commonAttributes>CommonAttribute.ВерсияПлатформы</commonAttributes>
   <commonAttributes>CommonAttribute.ПутьКОписанию</commonAttributes>
@@ -51,4 +52,5 @@
   <enums>Enum.КонтекстыВыполнения</enums>
   <dataProcessors>DataProcessor.ОбработкаСправочнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ЧтениеСправки</dataProcessors>
+  <dataProcessors>DataProcessor.ЭкспортДанных</dataProcessors>
 </mdclass:Configuration>
