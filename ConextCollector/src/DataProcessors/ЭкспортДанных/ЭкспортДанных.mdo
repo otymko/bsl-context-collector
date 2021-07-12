@@ -38,6 +38,30 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="d4265471-aad0-42dd-b6dd-f365720e1b78">
+    <name>ВыгрузитьДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b5c40e9-3557-4637-827d-2a917b5111ba">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииПлатформы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="db8ffab0-1805-41b7-b062-588952446637">
     <name>Форма</name>
     <synonym>
