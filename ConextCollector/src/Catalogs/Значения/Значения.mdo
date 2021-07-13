@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad8dcc0b-26a8-4dd9-98e1-195b4b4ab7c0">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad8dcc0b-26a8-4dd9-98e1-195b4b4ab7c0">
   <producedTypes>
     <objectType typeId="abc5735d-f3d8-4c5a-bdab-0c407a0bc1f3" valueTypeId="62821219-d778-418d-8682-792e2afb6049"/>
     <refType typeId="a0c0b50d-c643-4430-8c28-cdee3fa40be0" valueTypeId="86480c31-9fc1-4d72-ae99-283b24815afc"/>
@@ -21,6 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВерсииТипов</owners>
   <codeLength>9</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
@@ -30,4 +31,25 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f2db4b84-1f21-4392-aa3a-725718846a91">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
