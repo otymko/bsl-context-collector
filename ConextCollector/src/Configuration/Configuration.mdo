@@ -39,6 +39,7 @@
   <commonAttributes>CommonAttribute.НаименованиеАнгл</commonAttributes>
   <commonAttributes>CommonAttribute.ВерсияПлатформы</commonAttributes>
   <commonAttributes>CommonAttribute.ПутьКОписанию</commonAttributes>
+  <constants>Constant.БазовыйКаталогСправки</constants>
   <catalogs>Catalog.Типы</catalogs>
   <catalogs>Catalog.ВерсииТипов</catalogs>
   <catalogs>Catalog.События</catalogs>
