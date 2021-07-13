@@ -50,6 +50,7 @@
   <catalogs>Catalog.Перегрузки</catalogs>
   <enums>Enum.ВерсииПлатформы</enums>
   <enums>Enum.КонтекстыВыполнения</enums>
+  <enums>Enum.РежимИспользованияСвойства</enums>
   <dataProcessors>DataProcessor.ОбработкаСправочнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ЧтениеСправки</dataProcessors>
   <dataProcessors>DataProcessor.ЭкспортДанных</dataProcessors>
