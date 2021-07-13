@@ -52,4 +52,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="312f6790-827e-49d8-80a5-6a9a7844f5f0">
+    <name>РежимИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим использования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимИспользованияСвойства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

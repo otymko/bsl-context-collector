@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd0f26c9-43b7-47dd-a58a-6e322da9af2f">
+  <producedTypes>
+    <refType typeId="e040ae23-9325-4b60-a496-aed47ad7fb55" valueTypeId="6121276b-45ed-426a-84bc-0a661540b4ad"/>
+    <listType typeId="63cb8c2d-74fd-4f9a-a2ed-15bf40b58861" valueTypeId="bf79a406-7751-4bf9-966f-0a46a12d4ccb"/>
+    <managerType typeId="da6d6a8a-c30b-4574-9fae-cf9a56d2450e" valueTypeId="83ccbabe-7274-4844-912d-d07ba02b78a6"/>
+  </producedTypes>
+  <name>РежимИспользованияСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим использования свойства</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8b619567-3f5e-4f11-b588-87f2f0bea96c">
+    <name>ТолькоЧтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только чтение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="481305ec-8cce-4452-aba5-f9977cc2488a">
+    <name>ТолькоЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0006a10-4db2-429a-846b-affa6910a88f">
+    <name>ЧтениеИЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение и запись</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

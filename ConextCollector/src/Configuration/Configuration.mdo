@@ -39,6 +39,7 @@
   <commonAttributes>CommonAttribute.НаименованиеАнгл</commonAttributes>
   <commonAttributes>CommonAttribute.ВерсияПлатформы</commonAttributes>
   <commonAttributes>CommonAttribute.ПутьКОписанию</commonAttributes>
+  <constants>Constant.БазовыйКаталогСправки</constants>
   <catalogs>Catalog.Типы</catalogs>
   <catalogs>Catalog.ВерсииТипов</catalogs>
   <catalogs>Catalog.События</catalogs>
@@ -50,6 +51,7 @@
   <catalogs>Catalog.Перегрузки</catalogs>
   <enums>Enum.ВерсииПлатформы</enums>
   <enums>Enum.КонтекстыВыполнения</enums>
+  <enums>Enum.РежимИспользованияСвойства</enums>
   <dataProcessors>DataProcessor.ОбработкаСправочнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ЧтениеСправки</dataProcessors>
   <dataProcessors>DataProcessor.ЭкспортДанных</dataProcessors>
