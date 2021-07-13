@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ИдентификаторДляПоиска</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИдентификаторДляПоиска</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИдентификаторДляПоискаРасширеннаяПодсказка</name>
@@ -66,10 +64,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Code</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Code</segments>
         </dataPath>
         <extendedTooltip>
           <name>КодРасширеннаяПодсказка</name>
@@ -200,10 +196,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Description</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Description</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеРасширеннаяПодсказка</name>
@@ -252,10 +246,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.НаименованиеАнгл</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.НаименованиеАнгл</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеАнглРасширеннаяПодсказка</name>
@@ -351,10 +343,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Версии.ВерсияПлатформы</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Версии.ВерсияПлатформы</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВерсииВерсияПлатформыРасширеннаяПодсказка</name>
@@ -403,10 +393,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Версии.Description</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Версии.Description</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВерсииНаименованиеРасширеннаяПодсказка</name>
@@ -455,10 +443,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Версии.НаименованиеАнгл</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Версии.НаименованиеАнгл</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВерсииНаименованиеАнглРасширеннаяПодсказка</name>
@@ -506,10 +492,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Версии.Ref</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Версии.Ref</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВерсииСсылкаРасширеннаяПодсказка</name>
@@ -811,6 +795,49 @@
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Перечисление</name>
+    <id>79</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Перечисление</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПеречислениеРасширеннаяПодсказка</name>
+      <id>81</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПеречислениеКонтекстноеМеню</name>
+      <id>80</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

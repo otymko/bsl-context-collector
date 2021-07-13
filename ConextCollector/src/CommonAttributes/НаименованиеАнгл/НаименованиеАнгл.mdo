@@ -42,6 +42,10 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>Catalog.Свойства</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>Catalog.Конструкторы</metadata>
     <use>Use</use>
   </content>

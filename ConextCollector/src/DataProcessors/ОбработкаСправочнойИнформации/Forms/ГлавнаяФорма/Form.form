@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ПутьДоКаталогаСправки</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ПутьДоКаталогаСправки</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПутьДоКаталогаСправкиРасширеннаяПодсказка</name>
@@ -72,10 +70,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Платформы1С.LineNumber</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Платформы1С.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
         <name>Платформы1СНомерСтрокиРасширеннаяПодсказка</name>
@@ -120,10 +116,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Платформы1С.Платформа</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Платформы1С.Платформа</segments>
       </dataPath>
       <extendedTooltip>
         <name>Платформы1СПлатформаРасширеннаяПодсказка</name>
@@ -172,10 +166,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Платформы1С.КаталогСоСправкой</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Платформы1С.КаталогСоСправкой</segments>
       </dataPath>
       <extendedTooltip>
         <name>Платформы1СКаталогСоСправкойРасширеннаяПодсказка</name>
