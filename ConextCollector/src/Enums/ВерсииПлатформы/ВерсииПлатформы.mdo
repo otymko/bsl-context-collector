@@ -152,4 +152,18 @@
       <value>8.3.18</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="71d6d4ea-f7cb-45c6-84af-3e198e6d5602">
+    <name>Версия_8_3_19</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.19</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea866229-8a90-4ce4-83fe-e0a873eb03eb">
+    <name>Версия_8_3_20</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.3.20</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
