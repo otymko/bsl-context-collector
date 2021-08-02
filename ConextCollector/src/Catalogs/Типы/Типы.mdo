@@ -155,6 +155,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6401c56c-e975-4540-8bd3-aa781a918df4">
+    <name>ИсключитьИзГлобальногоКонтекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить из глобального контекста</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="505da1b5-22b6-42a7-978e-8effd92fa70f">
     <name>ФормаЭлемента</name>
     <synonym>
