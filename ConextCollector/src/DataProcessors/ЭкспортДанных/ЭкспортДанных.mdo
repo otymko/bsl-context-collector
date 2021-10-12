@@ -62,6 +62,18 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="0faeb731-b1fb-4c95-a512-1d3ace5d9fee">
+    <name>ВыгрузитьГлобальныеМетодыПоВерсиямПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить глобальные методы по версиям платформы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="db8ffab0-1805-41b7-b062-588952446637">
     <name>Форма</name>
     <synonym>
